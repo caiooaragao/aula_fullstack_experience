@@ -1,21 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>meu primeiro website</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <img class="img" src="./img/ben-iwara-K1xn2ER0Lac-unsplash.jpg" alt="something went wrong">
-    <h1>maria silva</h1>
-    <p><em>socia e diretora na empresa</em> <strong>Bolos delivery</strong></p>
-    <p>sou forada em Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, recusandae.❤</p>
-    <p class="linkedin">✌✌veja meu <a href="https://www.linkedin.com">linkedin</a></p>
-    
-    <a href="./cursos.html">meus cursos</a><br>
-    <a href="./hobbies.html">meus hobbies</a><br>
-    <a href="./contato.html">contato</a>
+    <header>
+        <div>
+            <img class="img" src="./img/ben-iwara-K1xn2ER0Lac-unsplash.jpg" alt="something went wrong">
+            <h1>Maria Silva</h1>
+        </div>
+        <div>
+            <p><em>socia e diretora na empresa</em> <strong>Bolos delivery</strong></p>
+            <p>sou forada em Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, recusandae.❤</p>
+            <p class="linkedin">✌✌veja meu <a href="https://www.linkedin.com">linkedin</a></p>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="card-container">
+            <div class="card">
+                <a href="#">
+                    <h2>Meus hobbies:</h2>
+                    <ol>
+                        <li>pintura</li>
+                        <li>costura</li>
+                        <li>serigrafia</li>
+                    </ol>
+                </a>
+
+            </div>
+
+            <div class="card">
+                <a href="#">
+                    <h2>Meu contato:</h2>
+                    <p>telefone : 9999999</p>
+                    <p>email: hhhh@gmail.com</p>
+                    <p>endereço: rua sem nome, 29 , 13041049</p>
+                </a>
+
+            </div>
+            <div class="card">
+                <a href="#">
+                    <h2>Card Example</h2>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </a>
+
+            </div>
+            <div class="card">
+                <a href="#">
+                    <h2>Card Example</h2>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </a>
+
+            </div>
+        </div>
+
+
+        <div class="formulario">
+            <h3>Gostaria de me mandar uma mensagem?</h3>
+            <form action="#">
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email">
+                </div>
+
+                <textarea name="mensagem" id="mensagem" cols="5" rows="20"></textarea>
+                <input class="submit" type="submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>@fulanadetal 2023 all rights reserved</p>
+    </footer>
+
 
 
 </html>
-
